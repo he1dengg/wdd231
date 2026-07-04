@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    nav ul.hidden {
+        display: flex;
+    }
+    
+    nav ul li a {
+        padding: 1rem 2rem;
+        border-radius: 0 0 6px 6px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+    }
+    
+    .course-section {
+        grid-column: 1 / -1; /* Chiếm toàn bộ chiều ngang ở trên cùng */
+    }
+
+    .about-section {
+        grid-column: 1 / 2;
+    }
+
+    .resources-section {
+        grid-column: 2 / 3;
+    }
+    
+    #course-container {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+    }
+}

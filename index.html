@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Web Frontend Development I - Hai Dang Nguyen</title>
+    <meta name="description" content="WDD 231 Course Home Page for Nguyễn Hải Đăng">
+    <meta name="author" content="Hai Dang Nguyen">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Profile Logo" width="75" height="75">
+        <span>Hai Dang Nguyen</span>
+        <button id="menu" aria-label="Menu">☰</button>
+    </header>
+
+    <nav>
+        <ul id="nav-list" class="hidden">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+        
+        <section class="card course-section">
+            <h2>Course Certificate</h2>
+            <div class="filter-buttons">
+                <button id="all-btn">All Courses</button>
+                <button id="wdd-btn">WDD Courses</button>
+                <button id="cse-btn">CSE Courses</button>
+            </div>
+            
+            <div id="course-container"></div>
+            
+            <p class="credits-info"><strong>Total Credits: <span id="total-credits"></span></strong></p>
+        </section>
+
+        <section class="card about-section">
+            <h2>About Me</h2>
+            <p>Hi, I'm Hai Dang Nguyen. I am a software development student based in Canada. I have a strong passion for web development, optimizing computer hardware, and building scalable applications. I'm currently diving deeper into frontend technologies and enjoying the journey!</p>
+        </section>
+
+        <section class="card resources-section">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://roadmap.sh/frontend" target="_blank">Frontend Roadmap</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socials">
+            <a href="https://github.com/he1dengg" target="_blank">
+                <img src="images/github.svg" alt="GitHub" width="30" height="30">
+            </a>
+            <a href="https://linkedin.com/in/he1dengg" target="_blank">
+                <img src="images/linkedin.svg" alt="LinkedIn" width="30" height="30">
+            </a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> | Hai Dang Nguyen | Canada</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
