@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Maple Leaf Legal logo</title>
+  <desc id="desc">A simple geometric logo with the initials ML.</desc>
+  <rect width="640" height="360" rx="28" fill="#7F1D1D"/>
+  <circle cx="130" cy="180" r="82" fill="#FCA5A5" opacity="0.95"/>
+  <circle cx="130" cy="180" r="58" fill="#7F1D1D" opacity="0.94"/>
+  <text x="130" y="202" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" text-anchor="middle">ML</text>
+  <text x="245" y="165" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Maple</text>
+  <text x="245" y="211" fill="#FCA5A5" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700">Leaf Legal</text>
+  <path d="M245 236h270" stroke="#FCA5A5" stroke-width="8" stroke-linecap="round"/>
+</svg>

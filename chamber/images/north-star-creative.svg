@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">North Star Creative logo</title>
+  <desc id="desc">A simple geometric logo with the initials NS.</desc>
+  <rect width="640" height="360" rx="28" fill="#111827"/>
+  <circle cx="130" cy="180" r="82" fill="#FBBF24" opacity="0.95"/>
+  <circle cx="130" cy="180" r="58" fill="#111827" opacity="0.94"/>
+  <text x="130" y="202" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" text-anchor="middle">NS</text>
+  <text x="245" y="165" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">North</text>
+  <text x="245" y="211" fill="#FBBF24" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700">Star Creative</text>
+  <path d="M245 236h270" stroke="#FBBF24" stroke-width="8" stroke-linecap="round"/>
+</svg>

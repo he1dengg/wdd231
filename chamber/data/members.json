@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Harbour Tech Solutions",
+    "address": "18 Water Street, Charlottetown, PE C1A 1A1",
+    "phone": "+1 (902) 555-0101",
+    "website": "https://example.org/harbour-tech",
+    "image": "harbour-tech.svg",
+    "membership": 3,
+    "category": "Technology",
+    "description": "Web development, managed IT services, and cybersecurity support for Island businesses."
+  },
+  {
+    "name": "Red Shore Coffee Roasters",
+    "address": "42 Queen Street, Charlottetown, PE C1A 4A6",
+    "phone": "+1 (902) 555-0102",
+    "website": "https://example.org/red-shore-coffee",
+    "image": "red-shore-coffee.svg",
+    "membership": 2,
+    "category": "Food & Beverage",
+    "description": "Small-batch coffee roasted in Prince Edward Island and served in a welcoming downtown café."
+  },
+  {
+    "name": "Island Green Builders",
+    "address": "125 St. Peters Road, Charlottetown, PE C1A 5P3",
+    "phone": "+1 (902) 555-0103",
+    "website": "https://example.org/island-green-builders",
+    "image": "island-green-builders.svg",
+    "membership": 3,
+    "category": "Construction",
+    "description": "Energy-efficient residential construction, renovations, and sustainable building consultation."
+  },
+  {
+    "name": "Blue Heron Accounting",
+    "address": "9 Great George Street, Charlottetown, PE C1A 4J6",
+    "phone": "+1 (902) 555-0104",
+    "website": "https://example.org/blue-heron-accounting",
+    "image": "blue-heron-accounting.svg",
+    "membership": 1,
+    "category": "Professional Services",
+    "description": "Bookkeeping, payroll, tax preparation, and practical financial guidance for small businesses."
+  },
+  {
+    "name": "Confederation Fitness Club",
+    "address": "77 University Avenue, Charlottetown, PE C1A 4L1",
+    "phone": "+1 (902) 555-0105",
+    "website": "https://example.org/confederation-fitness",
+    "image": "confederation-fitness.svg",
+    "membership": 2,
+    "category": "Health & Wellness",
+    "description": "A community-focused fitness centre offering strength training, classes, and personal coaching."
+  },
+  {
+    "name": "North Star Creative Studio",
+    "address": "31 Grafton Street, Charlottetown, PE C1A 1K6",
+    "phone": "+1 (902) 555-0106",
+    "website": "https://example.org/north-star-creative",
+    "image": "north-star-creative.svg",
+    "membership": 1,
+    "category": "Marketing & Design",
+    "description": "Brand identity, graphic design, photography, and digital campaigns for growing organizations."
+  },
+  {
+    "name": "Maple Leaf Legal Group",
+    "address": "64 Kent Street, Charlottetown, PE C1A 1M9",
+    "phone": "+1 (902) 555-0107",
+    "website": "https://example.org/maple-leaf-legal",
+    "image": "maple-leaf-legal.svg",
+    "membership": 3,
+    "category": "Legal Services",
+    "description": "Business, property, immigration, and family law services delivered with clear communication."
+  },
+  {
+    "name": "Sunrise Family Dental",
+    "address": "210 Belvedere Avenue, Charlottetown, PE C1A 2Z1",
+    "phone": "+1 (902) 555-0108",
+    "website": "https://example.org/sunrise-dental",
+    "image": "sunrise-family-dental.svg",
+    "membership": 2,
+    "category": "Health Care",
+    "description": "Preventive, restorative, and family dental care in a modern, accessible clinic."
+  }
+]

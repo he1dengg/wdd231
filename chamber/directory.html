@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Member Directory | Charlottetown Chamber of Commerce</title>
+  <meta name="description" content="Explore businesses and community organizations in the Charlottetown Chamber of Commerce member directory.">
+  <meta name="author" content="Hai Dang Nguyen">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:title" content="Charlottetown Chamber Member Directory">
+  <meta property="og:description" content="Connect with local businesses and organizations serving Charlottetown, Prince Edward Island.">
+  <meta property="og:image" content="https://YOUR-GITHUB-USERNAME.github.io/wdd231/chamber/images/og-image.png">
+  <meta property="og:url" content="https://YOUR-GITHUB-USERNAME.github.io/wdd231/chamber/directory.html">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script src="scripts/chamber.js" defer></script>
+  <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Charlottetown Chamber home">
+        <img src="images/chamber-logo.svg" alt="" width="54" height="54">
+        <span>
+          <strong>Charlottetown</strong>
+          <small>Chamber of Commerce</small>
+        </span>
+      </a>
+
+      <button id="menu-button" class="menu-button" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <nav id="primary-navigation" class="primary-navigation" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="directory.html" class="current" aria-current="page">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="discover.html">Discover</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro" aria-labelledby="directory-heading">
+      <p class="eyebrow">Local connections. Stronger business.</p>
+      <h1 id="directory-heading">Member Directory</h1>
+      <p>Find trusted businesses, services, and community partners across Charlottetown and Prince Edward Island.</p>
+    </section>
+
+    <section class="directory-panel" aria-labelledby="view-heading">
+      <div class="directory-toolbar">
+        <div>
+          <h2 id="view-heading">Explore our members</h2>
+          <p id="member-count" aria-live="polite">Loading members…</p>
+        </div>
+
+        <div class="view-buttons" role="group" aria-label="Choose directory layout">
+          <button id="grid-view" class="view-button active" type="button" aria-pressed="true">
+            <span aria-hidden="true">▦</span> Grid
+          </button>
+          <button id="list-view" class="view-button" type="button" aria-pressed="false">
+            <span aria-hidden="true">☷</span> List
+          </button>
+        </div>
+      </div>
+
+      <div id="members" class="members grid-view" aria-live="polite"></div>
+      <p id="directory-error" class="error-message" role="alert" hidden></p>
+
+      <noscript>
+        <p class="error-message">JavaScript is required to load the member directory.</p>
+      </noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <section aria-labelledby="footer-contact">
+        <h2 id="footer-contact">Charlottetown Chamber of Commerce</h2>
+        <address>
+          75 Queen Street<br>
+          Charlottetown, PE C1A 4A8<br>
+          <a href="mailto:info@charlottetownchamber.example">info@charlottetownchamber.example</a><br>
+          <a href="tel:+19025550183">(902) 555-0183</a>
+        </address>
+      </section>
+
+      <nav class="social-links" aria-label="Social media links">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+
+      <section class="development-info" aria-label="Development information">
+        <p>© <span id="current-year"></span> Charlottetown Chamber</p>
+        <p><strong>Hai Dang Nguyen</strong> · WDD 231</p>
+        <p id="last-modified"></p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
